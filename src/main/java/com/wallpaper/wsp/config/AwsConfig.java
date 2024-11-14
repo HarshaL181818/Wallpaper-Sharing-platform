@@ -12,7 +12,7 @@ import software.amazon.awssdk.services.rekognition.RekognitionClient;
 
 @Configuration
 public class AwsConfig {
-
+//add some changes
     @Value("${aws.access.key.id}")
     private String awsAccessKeyId;
 
